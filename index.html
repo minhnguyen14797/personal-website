@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/statics/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Spartan&display=swap" rel="stylesheet">
+    <link rel="icon" type='image/png' href="statics/favicon.png">
+    <script defer src="script.js"></script>
+    <title>Minh Nguyen</title>
+</head>
+<body>
+
+<!-- ------------ NAVBAR ------------ -->
+  <header>
+    <nav>
+      <a class='active' href="#about">about</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+<!-- --------------------------------- -->
+
+    
+    
+  <section id='about' class='container'>
+    <div class='row'>
+      <div class='col-lg-6 picture'>
+        <img class='profile-picture' src="/statics/my-pic-1.jpg" alt="Minh Nguyen's profile-picture">
+      </div>
+      
+      <div class='col-lg-6'>
+        <h1 class='main-title'>Minh Nguyen</h1>
+        <p class='about-me-text'>Hello! Welcome to my personal page!
+          
+          I am a <b>Food Scientist</b> who has a strong passion in computer programming, web development, data science, and sensory science. I received my <em>bachelor’s degree</em> in <em>Food Science and Technology</em> from <b>UC Davis</b> in 2020 and currently, I am working at a winery in St. Helena, California as a <em>Lab Technician</em>. I enjoy coding, eating good food, exercising, and drinking wine at home in my spare time. 
+          
+          I am a <b>self-taught developer</b> through various medias (Youtube, Udemy courses, peers, etc.) and I have been continuously learning and improving in programming, specifically in <em>Python, JavaScript, HTML, CSS</em>. Right now, I would like to focus more on Data Science and Analysis so I could utilize data analytical tools to benefit my sensory science interest.
+          
+          I also love drinking and tasting wine. For me, winemaking is an art that requires so much education, learning, experience, and patience to craft amazing products, which you could smell and taste the dedication of the winemaker. Working in a winery has further expanded my knowledge in wine and appreciation for winemaking as a career. Besides wine, I also like beer and whisk(e)y. 
+          
+          Feel free to contact me whether it is about professional career, computer programming, food, school, wine or simply just to have a conversation. 
+
+          I hope you have a great day and enjoy my personal page!
+          </p>
+
+      </div>
+    </div>
+  </section>
+
+    
+  <section id='portfolio'>
+    
+    <div class='container'>
+      <div class='row'>
+          <div>
+            <h1 class='main-title' id='projects'>projects</h1>
+          </div>
+
+
+          <div class='col-lg-4 col-md-6 col-sm-12 card-holder'>
+            <div class='card' modal-id='myModal1'> 
+                <img class='card-img-top' src="statics/placeholder.png" alt="project-img">
+                <div class='card-body'>
+                    <h5 class='card-title'>TITLE</h5>
+                    <p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+          </div>
+          <div id='myModal1' class='modal'>
+            <div class='modal-content'>
+              <div class='modal-top'>
+                <span class='close-btn'>&times;</span>
+                <h2>HEADER 1</h2>
+              </div>
+              <p>Some text in the modal...</p>
+            </div>
+          </div>
+          
+
+
+          <div class='col-lg-4 col-md-6 col-sm-12 card-holder'>
+            <div class='card' modal-id='myModal2'>
+                <img class='card-img-top' src="statics/placeholder.png" alt="project-img">
+                <div class='card-body'>
+                    <h5 class='card-title'>TITLE</h5>
+                    <p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+          </div>
+          <div id='myModal2' class='modal'>
+            <div class='modal-content'>
+              <div class='modal-top'>
+                <span class='close-btn'>&times;</span>
+                <h2>HEADER 2</h2>
+              </div>
+              <p>Some text in the modal...</p>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id='contact'>
+    <div class='row'>
+      <div>
+        <h1 class='main-title'>get in touch</h1>
+      </div>
+      <div>
+        <p class='copy-text'>copied</p>
+        <p id='email'><a class='underline' onclick="copyFunction()">email:</a> minhnguyen14797@gmail.com</p>
+      </div>
+      <div class='icons'>
+        <a href="https://www.facebook.com/nguyenthieuminh/" target="_blank" rel="noopener noreferrer"><img src="/statics/facebook.png" alt="facebook-icon"></a>
+        <a href="https://www.instagram.com/minhnguyen147/?hl=en" target="_blank" rel="noopener noreferrer"><img src="/statics/instagram.png" alt="instagram-icon"></a>
+        <a href="https://www.linkedin.com/in/minh-nguyen-63109019b/" target="_blank" rel="noopener noreferrer"><img src="/statics/linkedin.png" alt="linkedin-icon"></a>
+      </div>
+   </div>
+  </section>
+
+<footer>
+  <p>copyright &copy; by Minh Nguyen</p>
+</footer>
+
+</body>
+</html>
