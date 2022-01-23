@@ -44,13 +44,27 @@ header nav a {
     transition-duration: 300ms;
 }
 
+header nav a:hover {
+    color: white;
+}
+
+@media (hover :hover) {
+    header nav a:hover {
+        color: var(--orange);
+    }
+}
+
+/* 2 types of hovering effect. When using phone, it doesn't register hover, or register after clicked, which lead to effect issue
+changing this helps with separating hovering effect in computer and in phones */
+
 header nav a.active {
     background-color: ghostwhite;
     border-radius: 25px;
     color: var(--orange);
 }
-header nav a:hover {
-    color: var(--orange);
+
+header nav a:focus {
+    color: var(--orange)
 }
 
 /* ---------------------------------- */
